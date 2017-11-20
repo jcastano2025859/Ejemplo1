@@ -32,7 +32,9 @@ public class CContarPalabras
      nlineas++;
    }
    System.out.println();
-   System.out.println(ncaracteres + " " + npalabras + " " + nlineas);
+   System.out.println("Numero Total de caracteres" + ncaracteres );
+    System.out.println("Numero Total de Palabras " + npalabras);
+	 System.out.println( "Numero Total de Caracteres" + nlineas);
   }
   catch(IOException ignorada){}
  }   
